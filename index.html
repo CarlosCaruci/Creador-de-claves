@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5efe7b2023.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Creador de password</h2>
+
+        <div class="containerCheck">
+            <section>
+                <span>Longitud</span>
+                <input class="longitud" type="number" value="10">
+            </section>
+
+            <section>
+                <span>Mayusculas</span>
+                <input class="LtrMayus" type="checkbox" checked>
+            </section>
+
+            <section>
+                <span>Minusculas</span>
+                <input class="LtrMinus" type="checkbox" checked>
+            </section>
+
+            <section>
+                <span>Numeros</span>
+                <input class="LtrNum" type="checkbox">
+            </section>
+
+            <section>
+                <span>Signos</span>
+                <input class="LtrSing" type="checkbox">
+            </section>
+        </div>
+
+        <div class="containerBoton">
+            <button class="ButtonCrar">Crear passawor</button>
+        </div>
+
+        <div class="mostrarResult">
+                <input type="text" class="claveCreada"></input>    
+        </div>
+       
+        <div class="copiarresultado">
+            <span class="copiarClave"><i class="fa-regular fa-copy"></i></span>
+            <span class="textoCopy">Copiar</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

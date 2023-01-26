@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.container h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 290px;
+    margin: auto;
+    color: rgb(214, 214, 0);
+}
+
+.containerCheck{
+    margin: 6px;
+    padding: 5px;
+}
+
+.containerCheck section {
+margin: auto;
+margin-top: 5px;
+width: 200px;
+text-align: center;
+}
+
+.containerCheck section span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    margin: 5px;
+    color: rgb(219, 219, 170);
+}
+
+.containerCheck section:first-child {
+    margin-bottom: 10px;
+}
+
+.longitud{
+    width: 180px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.733);
+    font-size: 25px;
+    font-weight: 770;
+    border: 2px solid #777;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*  boton de crear passawor*/
+
+.containerBoton{
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.containerBoton button{
+
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: #777;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+/*resultado final*/
+
+.mostrarResult{
+  
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.claveCreada{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    font-weight: 700;
+    background-color: rgba(129, 129, 129, 0.199);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+}
+
+.claveCreada:focus{
+outline: none;
+}
+.claveCreada::selection{
+background-color: transparent;
+}
+.claveCreada::selection{
+    background-color: transparent;
+}
+
+/*Copiar result*/
+
+.copiarresultado{
+    color: #fff;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.copiarresultado:hover {
+    cursor: pointer;
+}
+
+.fa-copy{
+ font-size: 25px;
+ margin-left: 2px;
+}
+
+.textoCopy{
+    font-size: 18px;
+    font-weight: 700;
+}
